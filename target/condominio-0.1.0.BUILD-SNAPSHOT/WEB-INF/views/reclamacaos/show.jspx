@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_condominio_domain_Reclamacao" object="${reclamacao}" path="/reclamacaos" z="P1dJvDVChz3RZKSKOGH7W3PctGE=">
+        <field:display field="reclamante" id="s_com_condominio_domain_Reclamacao_reclamante" object="${reclamacao}" z="Ge5Hv4p5mHZYsMleYCL0D4SSTtA="/>
+        <field:display field="reclamado" id="s_com_condominio_domain_Reclamacao_reclamado" object="${reclamacao}" z="QMo9QJzzcQ8pmEwIF1K0nw1x3p0="/>
+        <field:display field="descricao" id="s_com_condominio_domain_Reclamacao_descricao" object="${reclamacao}" z="ltGDWHbM+QaEFJG2e2+0pNMMtfs="/>
+        <field:display field="morador" id="s_com_condominio_domain_Reclamacao_morador" object="${reclamacao}" z="/SRfU7IU8y4Ss8g1N2pecNlmvlE="/>
+    </page:show>
+</div>

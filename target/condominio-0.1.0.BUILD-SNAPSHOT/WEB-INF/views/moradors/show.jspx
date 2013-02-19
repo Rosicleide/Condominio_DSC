@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_condominio_domain_Morador" object="${morador}" path="/moradors" z="u4wqCmYu/kA3jxBqRzovZ83iDEI=">
+        <field:display field="nome" id="s_com_condominio_domain_Morador_nome" object="${morador}" z="pPhit4tYNVpR8pb09pduSJrjZHQ="/>
+        <field:display field="cpf" id="s_com_condominio_domain_Morador_cpf" object="${morador}" z="h3mme2sypYllMfzWt90Lc8lxF58="/>
+        <field:display field="dataNascimento" id="s_com_condominio_domain_Morador_dataNascimento" object="${morador}" z="+ZHHq+oyHG8nmk9LvAB40VsPjuo="/>
+        <field:display field="email" id="s_com_condominio_domain_Morador_email" object="${morador}" z="tkwMLVgIRhLoxOPI2KBjRSImcKI="/>
+        <field:display field="numero_apartamento" id="s_com_condominio_domain_Morador_numero_apartamento" object="${morador}" z="whYy3Nvc6A6hCGmNQ6IeY4fG2mk="/>
+    </page:show>
+</div>

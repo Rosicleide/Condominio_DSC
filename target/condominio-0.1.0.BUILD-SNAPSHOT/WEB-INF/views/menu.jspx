@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_categoria" z="XLnDEGJehr8l3YDLxVdbfHBP/oo=">
+            <menu:item id="i_categoria_new" messageCode="global_menu_new" url="/categorias?form" z="NYUpuLrfC7kdwPOtEghuKRyaHNA="/>
+            <menu:item id="i_categoria_list" messageCode="global_menu_list" url="/categorias?page=1&amp;size=${empty param.size ? 10 : param.size}" z="eydey0ZEQOKp1zkf+5SxUGiZeC8="/>
+        </menu:category>
+        <menu:category id="c_morador" z="XQPWDtiI9xkiqiXQ4RGK6fBzzAw=">
+            <menu:item id="i_morador_new" messageCode="global_menu_new" url="/moradors?form" z="H+XBLjbJl8/akhCAND9c7lru/NA="/>
+            <menu:item id="i_morador_list" messageCode="global_menu_list" url="/moradors?page=1&amp;size=${empty param.size ? 10 : param.size}" z="SCfxifSggonLpNrV98O/n0UpWoo="/>
+        </menu:category>
+        <menu:category id="c_reclamacao" z="he+wsHqqpnBqMDijXtcwFkksJ8I=">
+            <menu:item id="i_reclamacao_new" messageCode="global_menu_new" url="/reclamacaos?form" z="21iEz9aQ0jYAvJDlAEdPA+MrUUI="/>
+            <menu:item id="i_reclamacao_list" messageCode="global_menu_list" url="/reclamacaos?page=1&amp;size=${empty param.size ? 10 : param.size}" z="VwNugYTLoBNZM6TV/jsrcvJ2Mqc="/>
+        </menu:category>
+    </menu:menu>
+</div>

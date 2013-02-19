@@ -1,0 +1,8 @@
+[EL Info]: 2013-02-18 15:46:56.483--ServerSession(8585506)--EclipseLink, version: Eclipse Persistence Services - 2.4.1.v20121003-ad44345
+[EL Info]: connection: 2013-02-18 15:46:57.983--ServerSession(8585506)--file:/F:/DSC/target/classes_persistenceUnit login successful
+[EL Warning]: 2013-02-18 15:46:58.28--ServerSession(8585506)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.4.1.v20121003-ad44345): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "SEQUENCE" already exists; SQL statement:
+CREATE TABLE SEQUENCE (SEQ_NAME VARCHAR(50) NOT NULL, SEQ_COUNT NUMERIC(38), PRIMARY KEY (SEQ_NAME)) [42101-170]
+Error Code: 42101
+Call: CREATE TABLE SEQUENCE (SEQ_NAME VARCHAR(50) NOT NULL, SEQ_COUNT NUMERIC(38), PRIMARY KEY (SEQ_NAME))
+Query: DataModifyQuery(sql="CREATE TABLE SEQUENCE (SEQ_NAME VARCHAR(50) NOT NULL, SEQ_COUNT NUMERIC(38), PRIMARY KEY (SEQ_NAME))")

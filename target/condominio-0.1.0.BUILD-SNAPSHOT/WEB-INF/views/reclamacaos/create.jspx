@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_condominio_domain_Reclamacao" modelAttribute="reclamacao" path="/reclamacaos" render="${empty dependencies}" z="GLZPz+kfxc9yOzWNg9Hy6rQQ4FE=">
+        <field:select field="reclamante" id="c_com_condominio_domain_Reclamacao_reclamante" itemValue="id" items="${moradors}" path="/moradors" z="rXbF7EUDKKvVZo8XlxBXC/6Ene0="/>
+        <field:select field="reclamado" id="c_com_condominio_domain_Reclamacao_reclamado" itemValue="id" items="${moradors}" path="/moradors" z="keqhE5n9YlgJjHZ+LU7o1N+F4yc="/>
+        <field:textarea field="descricao" id="c_com_condominio_domain_Reclamacao_descricao" required="true" z="EUhZGaHc+ehP0gVRMTNlqeR/XnE="/>
+        <field:select field="morador" id="c_com_condominio_domain_Reclamacao_morador" itemValue="id" items="${moradors}" path="/moradors" z="d2WjwOb5hyaJG3vV/1SP9LVcwiE="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_condominio_domain_Reclamacao" render="${not empty dependencies}" z="irE6g3zkdKyiHqAYlI+THUWzeUo="/>
+</div>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_condominio_domain_Reclamacao" items="${reclamacaos}" z="kaho3+q90FhSlbPtPFLcHlhFMzs=">
+        <table:table data="${reclamacaos}" id="l_com_condominio_domain_Reclamacao" path="/reclamacaos" z="KjX5QpGMRw9XFQm5Fih0yeW0/Kg=">
+            <table:column id="c_com_condominio_domain_Reclamacao_reclamante" property="reclamante" z="yBPMleSLv6OtgXClAEmb9WTCReY="/>
+            <table:column id="c_com_condominio_domain_Reclamacao_reclamado" property="reclamado" z="HvlNjgovUF6TW0eEqPuts6G2t0Q="/>
+            <table:column id="c_com_condominio_domain_Reclamacao_descricao" property="descricao" z="Cbc+kKzhYWVJVrB25OFLaUZC7x0="/>
+            <table:column id="c_com_condominio_domain_Reclamacao_morador" property="morador" z="nla+xLMa40ad2BPxL93kFvvSRuo="/>
+        </table:table>
+    </page:list>
+</div>

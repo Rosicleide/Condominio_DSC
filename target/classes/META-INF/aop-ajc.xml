@@ -1,0 +1,33 @@
+<aspectj>
+<aspects>
+<aspect name="com.condominio.service.MoradorService_Roo_Service"/>
+<aspect name="com.condominio.domain.Reclamacao_Roo_Jpa_Entity"/>
+<aspect name="com.condominio.MoradorController_Roo_Controller"/>
+<aspect name="com.condominio.service.ReclamacaoServiceImpl_Roo_Service"/>
+<aspect name="com.condominio.repository.MoradorRepository_Roo_Jpa_Repository"/>
+<aspect name="com.condominio.ReclamacaoController_Roo_Controller"/>
+<aspect name="com.condominio.service.CategoriaServiceImpl_Roo_Service"/>
+<aspect name="com.condominio.domain.Categoria_Roo_JavaBean"/>
+<aspect name="com.condominio.domain.Morador_Roo_ToString"/>
+<aspect name="com.condominio.domain.Morador_Roo_Json"/>
+<aspect name="com.condominio.domain.Categoria_Roo_Json"/>
+<aspect name="com.condominio.domain.Reclamacao_Roo_ToString"/>
+<aspect name="com.condominio.CategoriaController_Roo_Controller"/>
+<aspect name="com.condominio.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="com.condominio.service.ReclamacaoService_Roo_Service"/>
+<aspect name="com.condominio.domain.Reclamacao_Roo_JavaBean"/>
+<aspect name="com.condominio.domain.Categoria_Roo_Jpa_Entity"/>
+<aspect name="com.condominio.repository.ReclamacaoRepository_Roo_Jpa_Repository"/>
+<aspect name="com.condominio.domain.Morador_Roo_JavaBean"/>
+<aspect name="com.condominio.domain.Reclamacao_Roo_Json"/>
+<aspect name="com.condominio.domain.Morador_Roo_Jpa_Entity"/>
+<aspect name="com.condominio.service.MoradorServiceImpl_Roo_Service"/>
+<aspect name="com.condominio.CategoriaController_Roo_Controller_Json"/>
+<aspect name="com.condominio.domain.Categoria_Roo_ToString"/>
+<aspect name="com.condominio.repository.CategoriaRepository_Roo_Jpa_Repository"/>
+<aspect name="com.condominio.service.CategoriaService_Roo_Service"/>
+<aspect name="com.condominio.MoradorController_Roo_Controller_Json"/>
+<aspect name="com.condominio.ReclamacaoController_Roo_Controller_Json"/>
+</aspects>
+</aspectj>
+

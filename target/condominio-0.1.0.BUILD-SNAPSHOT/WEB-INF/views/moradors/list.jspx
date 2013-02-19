@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_condominio_domain_Morador" items="${moradors}" z="rS/3JiOokrfzIU+G84rQPXIcpNs=">
+        <table:table data="${moradors}" id="l_com_condominio_domain_Morador" path="/moradors" z="c5VtwtxlsaW9PpdNUUVkeqTWDBI=">
+            <table:column id="c_com_condominio_domain_Morador_nome" property="nome" z="A5P9vlVhH7e6aY/0DV5tWosHq8Y="/>
+            <table:column id="c_com_condominio_domain_Morador_cpf" property="cpf" z="chmuut25b/XcFUyl0sG9vAiXxyI="/>
+            <table:column id="c_com_condominio_domain_Morador_dataNascimento" property="dataNascimento" z="JjwIp7U34qoBez4ovF2EnxoC1WI="/>
+            <table:column id="c_com_condominio_domain_Morador_email" property="email" z="ie0D87xTmA1JbijpsDbHjFNl2U0="/>
+            <table:column id="c_com_condominio_domain_Morador_numero_apartamento" property="numero_apartamento" z="9OWUkxqdN1EwIJ+z+herRsr1QLc="/>
+        </table:table>
+    </page:list>
+</div>

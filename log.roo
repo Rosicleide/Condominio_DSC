@@ -1,0 +1,37 @@
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-02-18 15:20:16
+project --topLevelPackage com.condominio
+jpa setup --provider ECLIPSELINK --database H2_IN_MEMORY
+entity jpa --class ~.domain.Morador --activeRecord false --testAutomatically 
+field string --fieldName nome --sizeMax 50 --notNull
+field string --fieldName cpf --sizeMin 11 --notNull
+field string --fieldName dataNascimento  --notNull
+field string --fieldName email --unique --notNull --regexp ^([0-9a-zA-Z](-.\W]*[0-9a-zA-Z])*@([0-9a-zA-Z][-\W]*[0-9a-zA-Z\.)+[a-zA-Z]{2,9})
+field string --fieldName numero_apartamento --notNull
+// [failed] field set --fieldName reclamacoes --type ~.domain.Reclamacao
+focus --class ~.domain.Morador
+entity jpa --class ~.domain.Categoria --activeRecord false --testAutomatically 
+field string  --fieldName nome --notNull --sizeMax 40
+field string  --fieldName descricao --notNull --sizeMax 1000
+// [failed] field set --fieldName reclamacoes --type ~.domain.Reclamacao
+focus --class ~.domain.Categoria
+entity jpa --class ~.domain.Reclamacao --activeRecord false --testAutomatically 
+field reference --fieldName reclamante --type ~.domain.Morador
+field reference --fieldName reclamado --type ~.domain.Morador
+field string --fieldName descricao --sizeMax 1000 --notNull
+// [failed] field date --fieldName data --type java.util.Date --notNull 
+focus --class ~.domain.Reclamacao
+field reference --fieldName morador --type ~.domain.Morador
+repository jpa --interface ~.repository.MoradorRepository --entity ~.domain.Morador
+repository jpa --interface ~.repository.CategoriaRepository --entity ~.domain.Categoria
+repository jpa --interface ~.repository.ReclamacaoRepository --entity ~.domain.Reclamacao
+service --interface ~.service.MoradorService --entity ~.domain.Morador
+service --interface ~.service.CategoriaService --entity ~.domain.Categoria
+service --interface ~.service.ReclamacaoService --entity ~.domain.Reclamacao
+json all --deepSerialize 
+web mvc json setup
+web mvc json all
+web mvc setup
+web mvc all --package ~.web
+web mvc json all
+quit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-02-18 15:27:28

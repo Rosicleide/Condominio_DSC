@@ -1,0 +1,17 @@
+<aspectj>
+<aspects>
+<aspect name="com.condominio.domain.CategoriaDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.condominio.domain.ReclamacaoDataOnDemand_Roo_Configurable"/>
+<aspect name="com.condominio.domain.ReclamacaoDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.condominio.domain.ReclamacaoIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.condominio.domain.MoradorDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.condominio.domain.MoradorIntegrationTest_Roo_Configurable"/>
+<aspect name="com.condominio.domain.MoradorIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.condominio.domain.CategoriaIntegrationTest_Roo_Configurable"/>
+<aspect name="com.condominio.domain.CategoriaDataOnDemand_Roo_Configurable"/>
+<aspect name="com.condominio.domain.MoradorDataOnDemand_Roo_Configurable"/>
+<aspect name="com.condominio.domain.ReclamacaoIntegrationTest_Roo_Configurable"/>
+<aspect name="com.condominio.domain.CategoriaIntegrationTest_Roo_IntegrationTest"/>
+</aspects>
+</aspectj>
+
